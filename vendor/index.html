@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunicaciones ALJENI - Celulares, Recargas y Planes</title>
+    <link rel="stylesheet" href="/pages/style.css">
+    <!-- Íconos (ejemplo con Font Awesome, puedes usar SVGs o imágenes) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo-link">
+                 <img src="/images/logo.png" alt="Comunicaciones ALJENI Logo" class="logo-img">
+                 <!-- O si prefieres texto: <span class="logo-text">Comunicaciones ALJENI</span> -->
+            </a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#celulares">Tienda de Celulares</a></li>
+                    <li><a href="#recargas-planes">Recargas y Planes</a></li>
+                    <li><a href="#promociones">Promociones</a></li>
+                    <li><a href="#contacto">Contáctanos</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1>Comunicaciones ALJENI</h1>
+                <p>Tu conexión móvil al instante. Los mejores celulares, recargas rápidas y planes a tu medida.</p>
+                <a href="#celulares" class="btn btn-primary">Ver Ofertas</a>
+            </div>
+        </section>
+
+        <section id="celulares" class="section-padding">
+            <div class="container">
+                <h2>Los Últimos Modelos en la tienda</h2>
+                <p class="section-subtitle">Descubre nuestra amplia selección de smartphones de las mejores marcas. ¡Encuentra el celular perfecto para ti!</p>
+                <div class="product-grid">
+                    <!-- Ejemplo de tarjeta de celular (repetir para más modelos) -->
+                    <div class="product-card">
+                        <img src="/images/galaxy.webp" alt="Celular Modelo X 2025">
+                        <h3>Galaxy Z Fold 7</h3>
+                        <p>Innovación plegable y potencia.</p>
+                        <span class="price">S/ 7,899</span>
+                        <a href="#" class="btn">Ver Detalles</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="/images/iphone.webp" alt="Celular Modelo Y 2025">
+                        <h3>iPhone 16 Pro Max</h3>
+                        <p>Rendimiento y cámara pro.</p>
+                        <span class="price">S/ 6,500</span>
+                        <a href="#" class="btn">Ver Detalles</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="/images/xiaomi.webp" alt="Celular Modelo Z 2025">
+                        <h3>Xiaomi Mix Fold 5</h3>
+                        <p>Diseño elegante y gran pantalla.</p>
+                        <span class="price">S/ 6,999</span>
+                        <a href="#" class="btn">Ver Detalles</a>
+                    </div>
+                    <!-- Añade más product-card aquí -->
+                </div>
+                <div class="text-center" style="margin-top: 30px;">
+                    <a href="#" class="btn btn-secondary">Ver más celulares</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="recargas-planes" class="section-padding bg-light">
+            <div class="container">
+                <h2>Mantente Conectado</h2>
+                <p class="section-subtitle">Recargas al instante y planes que se adaptan a tus necesidades.</p>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <h3>Recargas Electrónicas</h3>
+                        <p>Recarga tu saldo de forma rápida y segura con tu operador favorito.</p>
+                        <div class="operator-logos">
+                            <img src="images/operador1.png" alt="Operador 1" title="Claro">
+                            <img src="images/operador2.png" alt="Operador 2" title="Movistar">
+                            <img src="images/operador3.png" alt="Operador 3" title="Entel">
+                            <img src="images/operador4.png" alt="Operador 4" title="Bitel">
+                        </div>
+                        <a href="#" class="btn">Recargar Ahora</a>
+                    </div>
+                    <div class="service-item">
+                        <h3>Planes Móviles</h3>
+                        <p>Elige el plan con los gigas y minutos que necesitas para navegar y hablar sin límites.</p>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Plan Conectado Total</li>
+                            <li><i class="fas fa-check-circle"></i> Plan Full Datos</li>
+                            <li><i class="fas fa-check-circle"></i> Plan Gamer Pro</li>
+                        </ul>
+                        <a href="#" class="btn">Ver Planes</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="promociones" class="section-padding">
+            <div class="container">
+                <h2>Promociones Exclusivas</h2>
+                <p class="section-subtitle">Aprovecha nuestras ofertas especiales en equipos y planes.</p>
+                <!-- Aquí podrías añadir banners o tarjetas de promociones -->
+                <div class="promo-banner">
+                    <h4>¡Oferta Limitada!</h4>
+                    <p>Llévate un Smartphone XYZ con 20% de descuento + Plan Premium por 6 meses.</p>
+                    <a href="#" class="btn">Descubre la Promo</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="pagos" class="section-padding bg-light">
+            <div class="container">
+                <h2>Paga Como Prefieras</h2>
+                <p class="section-subtitle">Aceptamos una amplia variedad de métodos de pago para tu comodidad.</p>
+                <div class="payment-logos">
+                    <img src="images/pago_visa.png" alt="Visa" title="Visa">
+                    <img src="images/pago_mastercard.png" alt="Mastercard" title="Mastercard">
+                    <img src="images/pago_amex.png" alt="American Express" title="American Express">
+                    <img src="images/pago_yape.png" alt="Yape" title="Yape">
+                    <img src="images/pago_plin.png" alt="Plin" title="Plin">
+                    <img src="images/pago_efectivo.png" alt="PagoEfectivo" title="PagoEfectivo">
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section-padding">
+             <div class="container">
+                <h2>Contáctanos</h2>
+                <p class="section-subtitle">¿Tienes alguna duda? Estamos aquí para ayudarte.</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Tu Nombre" required>
+                        <input type="email" placeholder="Tu Correo Electrónico" required>
+                    </div>
+                    <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Comunicaciones ALJENI</h4>
+                    <p>Conectando tus momentos.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#celulares">Tienda</a></li>
+                        <li><a href="#recargas-planes">Planes</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">© 2024-2025 Comunicaciones ALJENI. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="/scripts/index.js"></script>
+</body>
+</html>
